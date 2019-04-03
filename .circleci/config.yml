@@ -28,8 +28,8 @@ jobs:
     environment:
       - PROJECT_NAME: "my-app"
       - GOOGLE_PROJECT_ID: "myapp-75a24"
-      - GOOGLE_COMPUTE_ZONE: "europe-west3-a"
-      - GOOGLE_CLUSTER_NAME: "cluster-1"
+      - GOOGLE_COMPUTE_ZONE: "us-central1-a"
+      - GOOGLE_CLUSTER_NAME: "my-app-standard-cluster-1"
     steps:
       - checkout
       - run:
